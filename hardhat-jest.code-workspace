@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"guides.sendUsagesAndStats": false,
+		"guides.active.width": 1,
+		"guides.active.gutter": true
+	},
+	"extensions": {
+		"recommendations": [
+			"codezombiech.gitignore",
+			"eg2.vscode-npm-script",
+			"sonarsource.sonarlint-vscode",
+			"yzhang.markdown-all-in-one",
+			"spywhere.guides"
+		]
+	}
+}

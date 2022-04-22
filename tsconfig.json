@@ -1,0 +1,18 @@
+{
+	"exclude": ["node_modules", "tests/**", "dist/**"],
+	"filesGlob": ["./src/**.ts", "./src/**/*.ts", "!node_modules/**"],
+	"include": ["./src/index.ts", "./src/**.ts"],
+	"compilerOptions": {
+		"target": "ES2017",
+		"module": "commonjs",
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"outDir": "./dist",
+		"strict": true,
+		"rootDir": ".",
+		"esModuleInterop": true,
+		"typeRoots": ["./src/type/extensions.ts"],
+		"lib": ["ESNext.AsyncIterable", "ESNext.BigInt", "ES2021.Promise"]
+	}
+}
